@@ -1,0 +1,10 @@
+name=Air Contamination
+id=AirContamination
+description=The air outside is permanently contaminated. Survive outdoors with gas masks, respirators, and SCBA. Filters and oxygen tanks degrade while exposed. Lua context-menu Put/Remove Filter and Tank (no fragile item soft-overrides). SCBA can be worn with backpacks/webbing. Indoors are safe. Fully configurable via Sandbox Options. Compatible with Build 42.
+url=
+modversion=1.5.16
+versionMin=42.20
+poster=poster.png
+icon=icon.png
+author=NewSkin
+category=features

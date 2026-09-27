@@ -1,0 +1,62 @@
+VERSION = 1,
+
+option AirContamination.StartWithMask
+{
+    type = boolean,
+    default = true,
+    page = AirContamination,
+    translation = AirContam_StartWithMask,
+}
+
+option AirContamination.ContaminationSpeed
+{
+    type = enum,
+    numValues = 3,
+    default = 2,
+    page = AirContamination,
+    translation = AirContam_ContaminationSpeed,
+    valueTranslation = AirContam_ContaminationSpeed,
+}
+
+option AirContamination.FilterDurationMultiplier
+{
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = AirContamination,
+    translation = AirContam_FilterDuration,
+    valueTranslation = AirContam_FilterDuration,
+}
+
+option AirContamination.IndoorSafeZone
+{
+    type = boolean,
+    default = true,
+    page = AirContamination,
+    translation = AirContam_IndoorSafeZone,
+}
+
+option AirContamination.DisableSicknessMoodle
+{
+    type = boolean,
+    default = false,
+    page = AirContamination,
+    translation = AirContam_DisableSicknessMoodle,
+}
+
+option AirContamination.ContaminationDelay
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = AirContamination,
+    translation = AirContam_ContaminationDelay,
+    valueTranslation = AirContam_ContaminationDelay,
+}
+option AirContamination.DebugProtection
+{
+    type = boolean,
+    default = false,
+    page = AirContamination,
+    translation = AirContam_DebugProtection,
+}

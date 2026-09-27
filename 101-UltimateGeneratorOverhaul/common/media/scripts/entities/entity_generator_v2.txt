@@ -1,0 +1,51 @@
+module Base {
+	xuiSkin default {
+		entity ES_GeneratorCustom {
+			LuaWindowClass = ISEntityWindow,
+			DisplayName	   = GeneratorV2,
+			Icon		   = generator_v2,
+		}
+	}
+
+    entity GeneratorCustom {
+        component UiConfig {
+            xuiSkin         = default,
+            entityStyle     = ES_GeneratorCustom,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig {
+            isThumpable         = true,
+			health              = 250,
+			skillBaseHealth     = 20,
+
+            face S { layer { row = security_01_0, } }
+            face E { layer { row = security_01_1, } }
+            face N { layer { row = security_01_2, } }
+            face W { layer { row = security_01_3, } }
+        }
+		
+		component CraftRecipe {
+            timedAction   = MakingElectrical,
+            time          = 500,
+            needToBeLearn = false,
+            category      = Electrical,
+            SkillRequired = Electricity:5;MetalWelding:4,
+            xpAward       = Electricity:60,
+            ToolTip       = Tooltip_UGO_craft_generatorDesc,
+            inputs {
+                item 1 tags[base:Screwdriver] mode:keep flags[MayDegradeVeryLight;NoBrokenItems],
+                item 1 [Base.Pliers] mode:keep flags[MayDegradeVeryLight;NoBrokenItems],
+                item 5 [Base.BlowTorch],
+                item 1 [Base.PetrolCan] mode:destroy,
+                item 25 [Base.Screws] mode:destroy,
+                item 2 [Base.SmallSheetMetal] mode:destroy,
+                item 6 [Base.SheetMetal] mode:destroy,
+                item 2 [Base.Glue] mode:destroy,
+                item 2 [Base.DuctTape] mode:destroy,
+                item 15 [Base.ElectronicsScrap] mode:destroy,
+                item 10 [Base.ElectricWire] mode:destroy,
+            }
+        }
+    }
+}

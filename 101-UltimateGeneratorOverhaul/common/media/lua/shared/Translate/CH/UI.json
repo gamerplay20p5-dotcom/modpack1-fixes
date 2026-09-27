@@ -1,0 +1,21 @@
+{
+  "UI_GeneratorActivation_genBroken": "不行……發電機壞了",
+  "UI_GeneratorActivation_genEmpty": "不行……發電機沒燃料了",
+
+  "UI_ProximitySensorActivation_notInsideBuilding": "需要在建築物內才能安裝感應器",
+  "UI_ProximitySensorActivation_needScrap_1": "需要 ",
+  "UI_ProximitySensorActivation_needScrap_2": " 個電子零件來安裝感應器",
+
+  "UI_BuildingGenerator_needFuelCan": "需要油桶來加滿發電機",
+  "UI_BuildingGenerator_fixNeedKnowledge": "我不知道怎麼修理發電機",
+  "UI_BuildingGenerator_fixGenStillOn": "不行……發電機還在運作中",
+  "UI_BuildingGenerator_fixNeedScrap": "需要零件來修理發電機",
+
+  "UI_LightSensor_knowledge": "我不知道怎麼做",
+  "UI_LightSensor_knowledgeElec": "我需要學更多電學知識",
+  "UI_LightSensor_needScrap": "需要電子零件來安裝感應器",
+
+  "UI_ProximitySensor_catchSentence_1": "建築裡有東西！",
+  "UI_ProximitySensor_catchSentence_2": "我聽到附近有殭屍！",
+  "UI_ProximitySensor_catchSentence_3": "糟了！警報響了！殭屍來了！"
+}

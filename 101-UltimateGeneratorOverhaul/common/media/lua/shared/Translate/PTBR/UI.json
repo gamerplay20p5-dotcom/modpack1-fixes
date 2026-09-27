@@ -1,0 +1,21 @@
+{
+  "UI_GeneratorActivation_genBroken": "Não posso... O gerador está quebrado",
+  "UI_GeneratorActivation_genEmpty": "Não posso... O gerador está sem combustível",
+
+  "UI_ProximitySensorActivation_notInsideBuilding": "É necessário estar dentro de um edifício para adicionar o sensor",
+  "UI_ProximitySensorActivation_needScrap_1": "São necessários ",
+  "UI_ProximitySensorActivation_needScrap_2": " sucatas eletrônicas para adicionar o sensor",
+
+  "UI_BuildingGenerator_needFuelCan": "Precisa de um galão de combustível para encher o gerador",
+  "UI_BuildingGenerator_fixNeedKnowledge": "Não sei como consertar o gerador",
+  "UI_BuildingGenerator_fixGenStillOn": "Não posso... O gerador ainda está ligado",
+  "UI_BuildingGenerator_fixNeedScrap": "Precisa de sucata para consertar o gerador",
+
+  "UI_LightSensor_knowledge": "Não sei como fazer isso",
+  "UI_LightSensor_knowledgeElec": "Preciso aprender mais sobre eletricidade",
+  "UI_LightSensor_needScrap": "Precisa de sucata eletrônica para adicionar o sensor",
+
+  "UI_ProximitySensor_catchSentence_1": "Tem algo dentro do prédio!",
+  "UI_ProximitySensor_catchSentence_2": "Ouvi um zumbi por perto!",
+  "UI_ProximitySensor_catchSentence_3": "Droga! O alarme! Os zumbis estão vindo!"
+}

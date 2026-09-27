@@ -1,0 +1,17 @@
+name=UI Equipment, Hotbar & Containers Continued
+id=EQUIPMENT_HOTBAR_CONTINUED
+description=[EN]
+description=A Tarkov/STALKER style equipment interface for Zomboid, with drag-to-reorder hotbar slots and container/backpack reordering (works on vehicle trunks too).
+description=Unofficial community continuation of "Equipment UI", "Reorder The Hotbar" and "Reorder Containers - Backpack Orders" by Notloc (all [DISCONTINUED], MIT licensed).
+description=See LICENSE for credit and links to the original mods.
+description=
+description=[FR]
+description=Interface d'équipement façon Tarkov/STALKER pour Zomboid, avec réorganisation de la barre de raccourcis et des sacs/conteneurs par glisser-déposer (marche aussi sur les coffres de véhicule).
+description=Reprise communautaire non-officielle de "Equipment UI", "Reorder The Hotbar" et "Reorder Containers - Backpack Orders" par Notloc (les trois [DISCONTINUED], licence MIT).
+description=Voir LICENSE pour les crédits et liens vers les mods originaux.
+icon=icon.png
+poster=poster.png
+modversion=1.4.0
+versionMin=42.0
+versionMax=42.20.99
+author=Ghoosty

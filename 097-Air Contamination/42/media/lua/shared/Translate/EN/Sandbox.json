@@ -1,0 +1,22 @@
+{
+  "Sandbox_AirContamination": "Air Contamination",
+  "Sandbox_AirContam_StartWithMask": "Starter Mask",
+  "Sandbox_AirContam_ContaminationSpeed": "Contamination Speed",
+  "Sandbox_AirContam_ContaminationSpeed_option1": "Slow",
+  "Sandbox_AirContam_ContaminationSpeed_option2": "Normal",
+  "Sandbox_AirContam_ContaminationSpeed_option3": "Fast",
+  "Sandbox_AirContam_FilterDuration": "Filter Duration",
+  "Sandbox_AirContam_FilterDuration_option1": "Very Short",
+  "Sandbox_AirContam_FilterDuration_option2": "Short",
+  "Sandbox_AirContam_FilterDuration_option3": "Normal",
+  "Sandbox_AirContam_FilterDuration_option4": "Long",
+  "Sandbox_AirContam_FilterDuration_option5": "Very Long",
+  "Sandbox_AirContam_IndoorSafeZone": "Safe Indoors",
+  "Sandbox_AirContam_DisableSicknessMoodle": "Disable Sickness Moodle",
+  "Sandbox_AirContam_DisableSicknessMoodle_tooltip": "When enabled, outdoor exposure does not set the Food Sickness (nauseous) moodle. Health damage, cough, blur, and all other effects still apply.",
+  "Sandbox_AirContam_ContaminationDelay": "Start Delay",
+  "Sandbox_AirContam_ContaminationDelay_option1": "Immediate",
+  "Sandbox_AirContam_ContaminationDelay_option2": "7 Days",
+  "Sandbox_AirContam_ContaminationDelay_option3": "15 Days",
+  "Sandbox_AirContam_DebugProtection": "Log mask and filter protection"
+}

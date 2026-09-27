@@ -1,0 +1,32 @@
+/* Air Contamination — craftable filters (by filter type).
+ * GasmaskFilterCrafted: vanilla MakeCraftedGasMaskFilter already exists — not duplicated.
+ * RespiratorFilters: vanilla only has RechargeFilters (needs an existing filter) — craft path added.
+ * GP5_Filter: optional recipe excluded because no provider is installed; OnTest cannot guard output resolution.
+ * Oxygen_Tank: skipped (tank refill systems are complex).
+ */
+module AirContamination
+{
+    craftRecipe MakeRespiratorFilters
+    {
+        timedAction = Making,
+        time = 60,
+        SkillRequired = Tailoring:1,
+        Tags = InHandCraft,
+        category = Miscellaneous,
+        xpAward = Tailoring:5,
+        inputs
+        {
+            item 1 tags[base:scissors;base:sharpknife] mode:keep flags[IsNotDull;SharpnessCheck],
+            item 1 tags[base:charcoal],
+            item 2 [Base.RippedSheets] mode:destroy,
+            item 1 tags[base:glue],
+            item 1 [Base.ScrapMetal;Base.Wire],
+        }
+        outputs
+        {
+            item 1 Base.RespiratorFilters,
+        }
+    }
+
+    /* Optional GP5 recipe omitted: its provider is absent from this pack. See _DIAGNOSTICO_BACKUP before restoring with the actual provider. */
+}

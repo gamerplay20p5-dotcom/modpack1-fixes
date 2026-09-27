@@ -1,0 +1,45 @@
+{
+  "ContextMenu_BuildingGenerator_powerOn": "開啟電源",
+  "ContextMenu_BuildingGenerator_powerOff": "關閉電源",
+  "ContextMenu_BuildingGenerator_powerOnTooltip": "啟動發電機",
+  "ContextMenu_BuildingGenerator_powerOffTooltip": "關閉發電機",
+
+  "ContextMenu_BuildingGenerator_status": "狀態：",
+  "ContextMenu_BuildingGenerator_fuelAmount": "燃料量：",
+  "ContextMenu_BuildingGenerator_consumption": "耗電量：",
+  "ContextMenu_BuildingGenerator_estimateTime_1": "剩餘時間：",
+  "ContextMenu_BuildingGenerator_estimateTime_2": " 小時",
+  "ContextMenu_BuildingGenerator_condition": "狀況：",
+  "ContextMenu_BuildingGenerator_autoOn": "自動啟動：開啟",
+  "ContextMenu_BuildingGenerator_autoOff": "自動啟動：關閉",
+  "ContextMenu_BuildingGenerator_activateAutoOn": "啟用自動啟動",
+  "ContextMenu_BuildingGenerator_activateAutoOff": "停用自動啟動",
+  "ContextMenu_BuildingGenerator_activateAutoOnTooltip": "自動啟動發電機",
+  "ContextMenu_BuildingGenerator_activateAutoOffTooltip": "停用自動啟動功能",
+
+  "ContextMenu_BuildingGenerator_addFuel": "添加燃料",
+  "ContextMenu_BuildingGenerator_addFuelTooltipSuccess": "將燃料加入發電機中",
+  "ContextMenu_BuildingGenerator_addFuelTooltipError": "發電機已加滿燃料",
+  "ContextMenu_BuildingGenerator_fix": "修理發電機",
+  "ContextMenu_BuildingGenerator_fixTooltipSuccess": "修復發電機",
+  "ContextMenu_BuildingGenerator_fixTooltipError": "發電機已經修好了",
+  "ContextMenu_BuildingGenerator_mag": "拿取發電機手冊",
+  "ContextMenu_BuildingGenerator_magTooltipSuccess": "包含發電機手冊",
+  "ContextMenu_BuildingGenerator_magTooltipError": "沒有包含發電機手冊",
+
+  "ContextMenu_BuildingGenerator_SensorAlertOn": "安裝近距感應器",
+  "ContextMenu_BuildingGenerator_SensorAlertOff": "移除近距感應器",
+  "ContextMenu_BuildingGenerator_SensorAlertOnTooltip": "依據建築面積需耗時與電子零件",
+  "ContextMenu_BuildingGenerator_SensorAlertOffTooltip": "依據建築面積需耗時與電子零件",
+
+  "ContextMenu_BuildingGenerator_toggleLights": "燈光：",
+  "ContextMenu_BuildingGenerator_toggleLightsOn": "開啟燈光",
+  "ContextMenu_BuildingGenerator_toggleLightsOnTooltip": "啟用所有電燈開關",
+  "ContextMenu_BuildingGenerator_toggleLightsOff": "關閉燈光",
+  "ContextMenu_BuildingGenerator_toggleLightsOffTooltip": "關閉所有電燈開關",
+
+  "ContextMenu_LightSensor_addSensor": "安裝感應器",
+  "ContextMenu_LightSensor_removeSensor": "移除感應器",
+  "ContextMenu_LightSensor_addSensorTooltip": "將感應器安裝到此物件",
+  "ContextMenu_LightSensor_removeSensorTooltip": "從此物件移除感應器"
+}

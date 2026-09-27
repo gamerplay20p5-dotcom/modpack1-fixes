@@ -1,0 +1,46 @@
+module Base {
+	xuiSkin default {
+		entity ES_LightSwitch {
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= LightSwitch,
+			Icon		= light_switch,
+		}
+	}
+
+    entity LightSwitch {
+        component UiConfig {
+            xuiSkin         = default,
+            entityStyle     = ES_LightSwitch,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig {
+            isThumpable         = false,
+            OnCreate            = BuildRecipeCode.lightSwitch.OnCreate,
+			needToBeAgainstWall = true,
+
+            face S { layer { row = lighting_indoor_01_0, } }
+            face E { layer { row = lighting_indoor_01_1, } }
+            face W { layer { row = lighting_indoor_01_2, } }
+            face N { layer { row = lighting_indoor_01_3, } }
+        }
+		
+		component CraftRecipe {
+            timedAction   = MakingElectrical,
+            time          = 300,
+            needToBeLearn = false,
+            category      = Electrical,
+            SkillRequired = Electricity:5,
+            xpAward       = Electricity:60,
+            ToolTip       = Tooltip_UGO_craft_lightSwitchDesc,
+            inputs {
+                item 1 tags[base:Screwdriver] mode:keep flags[MayDegradeVeryLight;NoBrokenItems],
+                item 1 [Base.LightBulb] mode:destroy,
+                item 4 [Base.ElectricWire] mode:destroy,
+                item 5 [Base.ElectronicsScrap] mode:destroy,
+                item 4 [Base.Screws] mode:destroy,
+                item 2 [Base.DuctTape] mode:destroy,
+            }
+        }
+    }
+}

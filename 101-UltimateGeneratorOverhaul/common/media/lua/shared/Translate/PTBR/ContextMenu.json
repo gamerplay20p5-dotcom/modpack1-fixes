@@ -1,0 +1,45 @@
+{
+  "ContextMenu_BuildingGenerator_powerOn": "Ligar",
+  "ContextMenu_BuildingGenerator_powerOff": "Desligar",
+  "ContextMenu_BuildingGenerator_powerOnTooltip": "Ligar o gerador",
+  "ContextMenu_BuildingGenerator_powerOffTooltip": "Desligar o gerador",
+
+  "ContextMenu_BuildingGenerator_status": "Status:",
+  "ContextMenu_BuildingGenerator_fuelAmount": "Quantidade de combustível: ",
+  "ContextMenu_BuildingGenerator_consumption": "Consumo de energia: ",
+  "ContextMenu_BuildingGenerator_estimateTime_1": "Tempo restante: ",
+  "ContextMenu_BuildingGenerator_estimateTime_2": " hora(s)",
+  "ContextMenu_BuildingGenerator_condition": "Condição: ",
+  "ContextMenu_BuildingGenerator_autoOn": "Partida automática ativada",
+  "ContextMenu_BuildingGenerator_autoOff": "Partida automática desativada",
+  "ContextMenu_BuildingGenerator_activateAutoOn": "Ativar partida automática",
+  "ContextMenu_BuildingGenerator_activateAutoOff": "Desativar partida automática",
+  "ContextMenu_BuildingGenerator_activateAutoOnTooltip": "Ligar o gerador automaticamente",
+  "ContextMenu_BuildingGenerator_activateAutoOffTooltip": "Desligar partida automática",
+
+  "ContextMenu_BuildingGenerator_addFuel": "Adicionar combustível",
+  "ContextMenu_BuildingGenerator_addFuelTooltipSuccess": "Adicionar combustível ao gerador",
+  "ContextMenu_BuildingGenerator_addFuelTooltipError": "O gerador já está cheio",
+  "ContextMenu_BuildingGenerator_fix": "Consertar gerador",
+  "ContextMenu_BuildingGenerator_fixTooltipSuccess": "Consertar o gerador",
+  "ContextMenu_BuildingGenerator_fixTooltipError": "O gerador já está consertado",
+  "ContextMenu_BuildingGenerator_mag": "Pegar revista do gerador",
+  "ContextMenu_BuildingGenerator_magTooltipSuccess": "Contém revista do gerador",
+  "ContextMenu_BuildingGenerator_magTooltipError": "Não contém revista do gerador",
+
+  "ContextMenu_BuildingGenerator_SensorAlertOn": "Adicionar sensor de proximidade",
+  "ContextMenu_BuildingGenerator_SensorAlertOff": "Remover sensor de proximidade",
+  "ContextMenu_BuildingGenerator_SensorAlertOnTooltip": "Tempo/sucata eletrônica dependendo da área do edifício",
+  "ContextMenu_BuildingGenerator_SensorAlertOffTooltip": "Tempo/sucata eletrônica dependendo da área do edifício",
+
+  "ContextMenu_BuildingGenerator_toggleLights": "Luzes:",
+  "ContextMenu_BuildingGenerator_toggleLightsOn": "Ligar luzes",
+  "ContextMenu_BuildingGenerator_toggleLightsOnTooltip": "Ativar todos os interruptores",
+  "ContextMenu_BuildingGenerator_toggleLightsOff": "Desligar luzes",
+  "ContextMenu_BuildingGenerator_toggleLightsOffTooltip": "Desligar todos os interruptores",
+
+  "ContextMenu_LightSensor_addSensor": "Adicionar sensor",
+  "ContextMenu_LightSensor_removeSensor": "Remover sensor",
+  "ContextMenu_LightSensor_addSensorTooltip": "Adicionar sensor a este objeto",
+  "ContextMenu_LightSensor_removeSensorTooltip": "Remover sensor deste objeto"
+}

@@ -1,0 +1,21 @@
+{
+  "Sandbox_AirContamination": "Aire Contaminado",
+  "Sandbox_AirContam_StartWithMask": "Barbijo Quirurgico",
+  "Sandbox_AirContam_ContaminationSpeed": "Velocidad de Contaminacion",
+  "Sandbox_AirContam_ContaminationSpeed_option1": "Lento",
+  "Sandbox_AirContam_ContaminationSpeed_option2": "Normal",
+  "Sandbox_AirContam_ContaminationSpeed_option3": "Rapido",
+  "Sandbox_AirContam_FilterDuration": "Duracion del Filtro",
+  "Sandbox_AirContam_FilterDuration_option1": "Muy Corta",
+  "Sandbox_AirContam_FilterDuration_option2": "Corta",
+  "Sandbox_AirContam_FilterDuration_option3": "Normal",
+  "Sandbox_AirContam_FilterDuration_option4": "Larga",
+  "Sandbox_AirContam_FilterDuration_option5": "Muy Larga",
+  "Sandbox_AirContam_IndoorSafeZone": "Interior Seguro",
+  "Sandbox_AirContam_DisableSicknessMoodle": "Desactivar descompostura",
+  "Sandbox_AirContam_DisableSicknessMoodle_tooltip": "Si esta activado, la exposicion al aire exterior no aplica el moodle de descompostura (Food Sickness). El dano a la salud, tos, vision borrosa y demas efectos siguen activos.",
+  "Sandbox_AirContam_ContaminationDelay": "Retraso de Inicio",
+  "Sandbox_AirContam_ContaminationDelay_option1": "Inmediato",
+  "Sandbox_AirContam_ContaminationDelay_option2": "7 Dias",
+  "Sandbox_AirContam_ContaminationDelay_option3": "15 Dias"
+}

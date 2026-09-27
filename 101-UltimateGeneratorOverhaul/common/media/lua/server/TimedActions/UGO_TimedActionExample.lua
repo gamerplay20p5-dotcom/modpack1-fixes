@@ -1,0 +1,167 @@
+----- Constructor of the class
+----- @param character any @IsoPlayer The character doing the action.
+----- @return any @ISBaseTimedAction The instance of the class
+--function ISBaseTimedAction:new(character)
+--end
+--
+----- Checks if the action is valid before updating.
+----- @return boolean If the action is valid.
+--function ISBaseTimedAction:isValid()
+--    return true
+--end
+--
+----- Stops the action.
+--function ISBaseTimedAction:stop()
+--    self.character:stopOrTriggerSound(self.sound)
+--    ISBaseTimedAction.stop(self);
+--end
+--
+----- Forces the action to complete.
+--function ISBaseTimedAction:forceComplete()
+--end
+--
+----- Forces the action to stop and cancels the rest of the queue.
+--function ISBaseTimedAction:forceStop()
+--end
+--
+----- Cancels the action before it starts.
+--function ISBaseTimedAction:forceCancel()
+--end
+--
+----- Waits for the action to become valid to start.
+----- @return boolean If the action can start.
+--function ISBaseTimedAction:waitToStart()
+--
+--end
+--
+----- Starts the action.
+--function ISBaseTimedAction:start()
+--
+--end
+--
+----- Checks if the action has started.
+----- @return boolean If the action has started.
+--function ISBaseTimedAction:isStarted()
+--    return false
+--end
+--
+----- Updates the action every tick.
+--function ISBaseTimedAction:update()
+--
+--end
+--
+----- Gets the percentage of the action completed.
+----- @return number The percentage completed.
+--function ISBaseTimedAction:getJobDelta()
+--    return 0.0
+--end
+--
+----- Resets the job delta.
+--function ISBaseTimedAction:resetJobDelta()
+--
+--end
+--
+----- Gets the duration of the action.
+----- @return number The maxTime of the action.
+--function ISBaseTimedAction:getDuration()
+--    return 150
+--end
+--
+----- Performs the action at the end.
+--function ISBaseTimedAction:perform()
+--    self.character:stopOrTriggerSound(self.sound)
+--    ISBaseTimedAction.perform(self)
+--end
+--
+----- Creates the action.
+--function ISBaseTimedAction:create()
+--
+--end
+--
+----- Begins the action.
+--function ISBaseTimedAction:begin()
+--
+--end
+--
+----- Sets the current time of the action.
+----- @param currentTime number The current time of the action.
+--function ISBaseTimedAction:setCurrentTime(currentTime)
+--
+--end
+--
+----- Sets the max time of the action.
+----- @param time number The new maxTime.
+--function ISBaseTimedAction:setTime(time)
+--
+--end
+--
+----- Adjusts and returns the maxTime of the action.
+----- @param maxTime number The maxTime to adjust.
+----- @return number The adjusted maxTime.
+--function ISBaseTimedAction:adjustMaxTime(maxTime)
+--    return maxTime
+--end
+--
+----- Sets the action animation.
+----- @param _action string The animation name.
+----- @param _displayItemModels nil Deprecated.
+--function ISBaseTimedAction:setActionAnim(_action, _displayItemModels)
+--
+--end
+--
+----- Sets override hand models.
+----- @param _primaryHand any InventoryItem or string.
+----- @param _secondaryHand any InventoryItem or string.
+----- @param _resetModel boolean Whether to reset the model.
+--function ISBaseTimedAction:setOverrideHandModels(_primaryHand, _secondaryHand, _resetModel)
+--
+--end
+--
+----- Sets override hand models using strings.
+----- @param _primaryHand string
+----- @param _secondaryHand string
+----- @param _resetModel boolean
+--function ISBaseTimedAction:setOverrideHandModelsString(_primaryHand, _secondaryHand, _resetModel)
+--
+--end
+--
+----- Updates the character's weapon type from override.
+--function ISBaseTimedAction:overrideWeaponType()
+--
+--end
+--
+----- Restores the character's real weapon type.
+--function ISBaseTimedAction:restoreWeaponType()
+--
+--end
+--
+----- Sets an animation variable.
+----- @param _key string The animation variable key.
+----- @param _val string The value to assign.
+--function ISBaseTimedAction:setAnimVariable(_key, _val)
+--
+--end
+--
+----- Adds an action to the queue after this one.
+----- @param action any @ISBaseTimedAction The action to add.
+----- @return any @ISTimedActionQueue The queue and added action.
+--function ISBaseTimedAction:addAfter(action)
+--
+--end
+--
+----- Begins grouping actions after this one.
+--function ISBaseTimedAction:beginAddingActions()
+--
+--end
+--
+----- Ends grouping actions and returns the count.
+----- @return number Number of actions added after this one.
+--function ISBaseTimedAction:endAddingActions()
+--    return 0
+--end
+--
+----- Applies delta movement modifiers.
+----- @param deltas any MoveDeltaModifiers
+--function ISBaseTimedAction:getDeltaModifiers(deltas)
+--
+--end

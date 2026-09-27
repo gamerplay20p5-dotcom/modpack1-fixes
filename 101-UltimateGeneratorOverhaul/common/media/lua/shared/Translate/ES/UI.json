@@ -1,0 +1,21 @@
+{
+  "UI_GeneratorActivation_genBroken": "No puedo... El generador está roto",
+  "UI_GeneratorActivation_genEmpty": "No puedo... El generador se quedó sin combustible",
+
+  "UI_ProximitySensorActivation_notInsideBuilding": "Necesitas estar dentro de un edificio para añadir un sensor",
+  "UI_ProximitySensorActivation_needScrap_1": "Se necesitan ",
+  "UI_ProximitySensorActivation_needScrap_2": " chatarra electrónica para añadir un sensor",
+
+  "UI_BuildingGenerator_needFuelCan": "Se necesita un bidón de combustible para llenar el generador",
+  "UI_BuildingGenerator_fixNeedKnowledge": "No sé cómo reparar un generador",
+  "UI_BuildingGenerator_fixGenStillOn": "No puedo... El generador sigue encendido",
+  "UI_BuildingGenerator_fixNeedScrap": "Se necesita chatarra para reparar el generador",
+
+  "UI_LightSensor_knowledge": "No sé cómo hacerlo",
+  "UI_LightSensor_knowledgeElec": "Necesito aprender más sobre electricidad",
+  "UI_LightSensor_needScrap": "Se necesita chatarra electrónica para añadir un sensor",
+
+  "UI_ProximitySensor_catchSentence_1": "¡Hay algo en el edificio!",
+  "UI_ProximitySensor_catchSentence_2": "¡Escuché un zombi cerca!",
+  "UI_ProximitySensor_catchSentence_3": "¡Mierda! ¡La alarma! ¡Los zombis vienen!"
+}
